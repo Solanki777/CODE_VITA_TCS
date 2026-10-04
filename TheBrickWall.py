@@ -82,3 +82,8 @@ while q:
                 q.append((nr, nc))
 
 print(dist[end[0]][end[1]])
+
+
+# Complexity
+# Time: O(N²) approximately, because each cell has only 4 neighbours.
+# Space: O(N²) for the expanded grid and distance array.
